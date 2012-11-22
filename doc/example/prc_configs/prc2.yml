@@ -1,0 +1,16 @@
+hostname: einstein 
+test_run: 7 
+paths:
+  testprog_path: /bin/
+  output_dir: /tmp/
+mcp_server: localhost
+mcp_port: 1337
+report_server: localhost
+report_api_port: 7358
+report_port: 7357
+testprogram_list:
+- program: /home/hmai/tmp/sleep.sh
+  parameters:
+    - 3
+  timeout: 12
+  capture: tap

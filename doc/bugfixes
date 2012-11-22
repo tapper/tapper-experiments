@@ -1,0 +1,4 @@
+        Net::SSH::Perl
+* t/03-packet.t fails
+** skipped when Math::GMP installed
+** else vim t/03-packet.t +30; s'$fh'*$fh'

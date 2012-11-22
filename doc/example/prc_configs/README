@@ -1,0 +1,3 @@
+Examples for config files the MCP generates for a PRC. 
+Can be used to test the PRC by calling
+$ TAPPER_CONFIG=./$file tapper-automatic-test.pl

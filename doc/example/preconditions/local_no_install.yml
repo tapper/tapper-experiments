@@ -1,0 +1,12 @@
+# a simple MPC to test locally without installation
+---
+precondition_type: testprogram
+program: /home/hmai/tmp/sleep.sh
+parameters:
+  - 10
+timeout: 20
+capture: tap
+---
+precondition_type: hint
+local: 1
+skip_install: 1
